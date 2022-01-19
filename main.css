@@ -43,11 +43,25 @@ body {
     width: 500px;
   }
    
-  .about__sun-image {
+  .about__sun—image {
     width: 100px;
     height: 100px;
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    /*top: 10px; left: 10px;*/
   }
 
+  @keyframes rotation {
+    0% {
+      transform:rotate(0deg);
+  }
+  100% {
+      transform:rotate(360deg);
+  }
+}
   .about {
     display: flex;
     align-items: center;
