@@ -192,53 +192,71 @@ body {
   }
 
   @media (max-width: 1024px) {
-    header footer {
-      padding-left: 10px;
-      padding-right: 10px;
+    .about {
+        padding: 115px 20px;
     }
-    section {
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
+  
     .about h1 {
-      font-size: 36px;
-      line-height: 40px;
+        font-size: 36px;
+        line-height: 40px;
     }
-    .header__logo {
-      height: 20px;
-    }
+  
     .about__image {
-      width: 280px;
+        width: 280px;
     }
-     
-    .about__sun—image {
-      width: 75px;
-      height: 75px;
+  
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
     }
-  }
-  @media (max-width: 720px) {
-    header footer {
-      padding-left: 10px;
-      padding-right: 10px;
+ }
+  
+ /* Мобильные устройства */
+ @media (max-width: 720px) {
+    header {
+        padding: 10px;
     }
-    section {
-      padding-top: 50px;
-      padding-bottom: 50px;
+  
+    .header__logo {
+        height: 20px;
     }
+  
+    header a {
+        margin-right: 10px;
+    }
+  
+    .about {
+        flex-direction: column-reverse;
+        padding: 50px 10px;
+    }
+  
     .about h1 {
-      font-size: 36px;
-      line-height: 40px;
+        font-size: 36px;
+        line-height: 40px;
     }
-
-    .header__logo {
-      height: 20px;
-    }
+  
     .about__image {
-      width: 280px;
+        width: 280px;
     }
-     
-    .about__sun—image {
-      width: 75px;
-      height: 75px;
+  
+    .about__sun-image {
+        width: 75px;
+        height: 75px;
     }
-  }
+  
+    .form {
+        padding: 50px 10px;
+    }
+  
+    .form h1 {
+        font-size: 36px;
+    }
+  
+    footer {
+        padding: 50px 10px;
+    }
+  
+    .footer__container {
+        flex-direction: column;
+    }
+ }
