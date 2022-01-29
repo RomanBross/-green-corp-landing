@@ -190,3 +190,55 @@ body {
       text-align: center;
       opacity: 0.5;
   }
+
+  @media (max-width: 1024px) {
+    header footer {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .about h1 {
+      font-size: 36px;
+      line-height: 40px;
+    }
+    .header__logo {
+      height: 20px;
+    }
+    .about__image {
+      width: 280px;
+    }
+     
+    .about__sun—image {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  @media (max-width: 720px) {
+    header footer {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .about h1 {
+      font-size: 36px;
+      line-height: 40px;
+    }
+
+    .header__logo {
+      height: 20px;
+    }
+    .about__image {
+      width: 280px;
+    }
+     
+    .about__sun—image {
+      width: 75px;
+      height: 75px;
+    }
+  }
